@@ -1,0 +1,55 @@
+{
+  "name": "online-auction",
+  "version": "1.0.0",
+  "description": "Team work for JavaScript Applications Course 2017, Team Elderberry",
+  "main": "index.js",
+  "engines": {
+    "node": "6.9.x",
+    "npm": "3.10.x"
+  },
+  "scripts": {
+    "dev": "./node_modules/.bin/nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "npm start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartinaShebova/Team-Elderberry-Project.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MartinaShebova/Team-Elderberry-Project/issues"
+  },
+  "homepage": "https://github.com/MartinaShebova/Team-Elderberry-Project#readme",
+  "dependencies": {
+    "alertifyjs": "^1.10.0",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.1",
+    "bootstrap": "^3.3.7",
+    "crypto": "0.0.3",
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.7",
+    "handlebars-intl": "^1.1.2",
+    "jquery": "^3.2.1",
+    "jquery-ui": "^1.12.1",
+    "jsonwebtoken": "^7.3.0",
+    "mongoose": "^4.9.5",
+    "morgan": "^1.8.1",
+    "navigo": "^4.7.0",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1",
+    "passport-local": "^1.0.0",
+    "systemjs": "^0.20.12",
+    "systemjs-plugin-babel": "0.0.21",
+    "toastr": "^2.1.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0",
+    "nodemon": "^1.11.0",
+    "sinon": "^2.2.0",
+    "sinon-chai": "^2.10.0"
+  }
+}
